@@ -8,3 +8,26 @@ header nav ul li {
   display: inline-block;
   text-decoration: none;
 }
+
+
+
+/*-------------Header-------------*/
+
+nav ul {
+  text-decoration: none;
+  font-family: roboto;
+  text-align: right;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li a:visited {
+  color: black;
+}

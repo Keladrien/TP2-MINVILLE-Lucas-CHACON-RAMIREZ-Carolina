@@ -2,8 +2,10 @@
   display: flex;
   flex-direction: row;
   align-items:normal;
+  gap: 1rem;
+  align-items: flex-start;
 }
 
-.image {
+.flexbox div {
   flex-basis: 100%;
 }
