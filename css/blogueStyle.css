@@ -1,3 +1,13 @@
-.flexTextRight {
+.flexbox {
   display: flex;
+  flex-direction: row;
+}
+
+.flexText {
+  width: 66%;
+  height: auto;
+}
+.flexImg {
+  width: 33%;
+  height: auto;
 }
