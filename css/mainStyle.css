@@ -1,0 +1,10 @@
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+header nav ul li {
+  display: inline-block;
+  text-decoration: none;
+}
