@@ -24,8 +24,10 @@ h1 {
   margin-top: 0;
 }
 
-.floatNav {
-  float: right;
+.flexHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 nav ul {
@@ -48,4 +50,12 @@ nav ul li a:hover {
 
 nav ul li a:visited {
   color: #d3d3d3;
+}
+
+
+/*-------------Body-------------*/
+
+/*-------------Body temporaire pour tester ma page-------------*/
+body {
+  background-color: #5b8266;
 }
