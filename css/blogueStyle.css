@@ -4,5 +4,7 @@
   gap: 1rem;
 }
 
-.flexText {
-}
+img {
+  width: 400px;
+  height: auto;
+} /*temporaire img a resize*/

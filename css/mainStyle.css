@@ -23,12 +23,8 @@ body {
   src: url(font\montez\Montez-Regular.ttf);
 }
 
-/*-------------Header-------------*/
+/*-------------Header/Footer-------------*/
 
-img {
-  width: 400px;
-  height: auto;
-} /*temporaire img a resize*/
 
 header {
   background-color: #14453d;
@@ -39,7 +35,7 @@ h1 {
   margin-top: 0;
 }
 
-.flexHeader {
+.flexHF {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
