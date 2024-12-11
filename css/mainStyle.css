@@ -13,7 +13,22 @@ body {
   margin: 0;
 }
 
+@font-face {
+  font-family: roboto;
+  src: url(font\Roboto\Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: montez;
+  src: url(font\montez\Montez-Regular.ttf);
+}
+
 /*-------------Header-------------*/
+
+img {
+  width: 400px;
+  height: auto;
+} /*temporaire img a resize*/
 
 header {
   background-color: #14453d;
@@ -42,6 +57,7 @@ nav ul li a {
   color: #d3d3d3;
   text-align: center;
   margin-right: 1rem;
+  font-family: roboto;
 }
 
 nav ul li a:hover {
@@ -51,7 +67,6 @@ nav ul li a:hover {
 nav ul li a:visited {
   color: #d3d3d3;
 }
-
 
 /*-------------Body-------------*/
 

@@ -1,11 +1,8 @@
-.flexbox {
+.flexBlog {
   display: flex;
   flex-direction: row;
-  align-items:normal;
   gap: 1rem;
-  align-items: flex-start;
 }
 
-.flexbox div {
-  flex-basis: 100%;
+.flexText {
 }
