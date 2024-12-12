@@ -35,10 +35,6 @@ header {
   margin-top: 0;
 }
 
-h1 {
-  margin: 0;
-}
-
 .flexHF {
   display: flex;
   flex-direction: row;
@@ -57,7 +53,7 @@ nav ul li a {
   margin-left: 1rem;
   color: #d3d3d3;
   text-align: center;
-  margin-right: 1rem;
+  padding: 2rem 1rem 2rem 1rem;
   font-family: roboto;
 }
 
@@ -69,6 +65,9 @@ nav ul li a:visited {
   color: #d3d3d3;
 }
 
+header {
+  margin-bottom: 2rem;
+}
 /*-------------Body-------------*/
 
 /*-------------Body temporaire pour tester ma page-------------*/
@@ -80,6 +79,10 @@ h2,
 h1 {
   font-family: montez;
   color: #d4af37;
+}
+
+h2 {
+  margin-top: 0;
 }
 
 p {
