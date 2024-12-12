@@ -20,4 +20,13 @@ time {
   border-color: #d3d3d3;
   border-radius: 1rem;
   padding: 5px;
+  margin-top: 1rem;
+  font-family: roboto;
+  color: #d3d3d3;
+}
+
+.flexTime {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }

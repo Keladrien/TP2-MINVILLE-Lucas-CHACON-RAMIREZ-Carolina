@@ -78,11 +78,11 @@ body {
 
 h2,
 h1 {
-  font: montez;
+  font-family: montez;
   color: #d4af37;
 }
 
 p {
-  font: roboto;
+  font-family: roboto;
   color: #d3d3d3;
 }
