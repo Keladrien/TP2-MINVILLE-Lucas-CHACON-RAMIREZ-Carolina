@@ -1,0 +1,24 @@
+.flexTable {
+  display: flex;
+  flex-direction: column;
+}
+
+th {
+  font-family: roboto;
+  color: #d3d3d3;
+  background-color: #14453d;
+}
+
+td {
+  font-family: roboto;
+  color: #d3d3d3;
+  background-color: #14453d;
+}
+
+table {
+  width: 100%;
+  height: 6rem;
+}
+
+.tablePrice {
+}
