@@ -68,6 +68,21 @@ nav ul li a:visited {
 header {
   margin-bottom: 2rem;
 }
+
+footer {
+  border-top-style: solid;
+  color: #d3d3d3;
+  padding-top: 1rem;
+}
+
+p {
+  font-family: roboto;
+  color: #d3d3d3;
+}
+
+.selectedNav {
+  text-decoration: underline;
+}
 /*-------------Body-------------*/
 
 /*-------------Body temporaire pour tester ma page-------------*/
@@ -83,9 +98,4 @@ h1 {
 
 h2 {
   margin-top: 0;
-}
-
-p {
-  font-family: roboto;
-  color: #d3d3d3;
 }

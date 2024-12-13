@@ -1,15 +1,37 @@
 #loc {
-  list-style-image: url(../img/nousJoindreImg/map.ico);
+  list-style-image: url(../img/nousJoindreImg/gps.png);
 }
 
 #mail {
-  list-style-image: url(../img/nousJoindreImg/mail.ico);
+  list-style-image: url(../img/nousJoindreImg/mail.png);
 }
 
 #phone {
-  list-style-image: url(../img/nousJoindreImg/phone.ico);
+  list-style-image: url(../img/nousJoindreImg/phone.png);
 }
 
-#loc::marker {
-  font-size: 1rem;
+li {
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #d3d3d3;
+}
+
+a:visited {
+  color: #d3d3d3;
+}
+
+ul {
+  margin: 1rem 0 1rem 0;
+}
+
+iframe {
+  margin: 1rem 0 1rem 0;
 }

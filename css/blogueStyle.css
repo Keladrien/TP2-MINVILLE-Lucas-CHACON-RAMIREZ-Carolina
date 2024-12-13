@@ -10,10 +10,13 @@ img {
 } /*temporaire img a resize*/
 
 section {
-  border-color: #d3d3d3;
-  border-bottom-style: solid;
   padding-bottom: 1rem;
   padding: 2rem 0 2rem 0;
+}
+
+br {
+  border-style: solid;
+  color: #d3d3d3;
 }
 
 time {
@@ -30,4 +33,9 @@ time {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.separator {
+  border-top-style: solid;
+  border-color: #d3d3d3;
 }
