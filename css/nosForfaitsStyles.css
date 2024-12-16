@@ -12,12 +12,24 @@ th {
 td {
   font-family: roboto;
   color: #d3d3d3;
-  background-color: #14453d;
+  background-color: #3e8266;
 }
 
 table {
   width: 100%;
-  height: 6rem;
+}
+
+td,
+th {
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  margin: 0;
+}
+
+.flexTable div {
+  border-style: solid;
+  border-color: black;
 }
 
 .tablePrice {
