@@ -17,6 +17,8 @@ td {
 
 table {
   width: 100%;
+  margin: 1rem 0 1rem 0;
+  border-collapse: collapse;
 }
 
 td,
@@ -30,7 +32,38 @@ th {
 .flexTable div {
   border-style: solid;
   border-color: black;
+  text-align: left;
 }
 
 .tablePrice {
+  font-size: 2rem;
+}
+
+.tableButton {
+  border-radius: 3rem;
+  border-style: solid;
+  border-color: black;
+  background-color: #d4af37;
+  font-family: roboto;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+button a:visited {
+  color: black;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+#tableCorner {
+  background-color: #5b8266;
+  border: none;
 }
