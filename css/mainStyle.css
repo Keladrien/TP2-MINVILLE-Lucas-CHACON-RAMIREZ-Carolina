@@ -31,7 +31,7 @@ header a img {
 }
 
 header {
-  background-color: #14453d;
+  background-color: #A3B18A;
   margin-top: 0;
 }
 
@@ -51,7 +51,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   margin-left: 1rem;
-  color: #d3d3d3;
+  color: #344E41;
   text-align: center;
   padding: 2rem 1rem 2rem 1rem;
   font-family: roboto;
@@ -62,7 +62,7 @@ nav ul li a:hover {
 }
 
 nav ul li a:visited {
-  color: #d3d3d3;
+  color: #344E41;
 }
 
 header {
@@ -71,13 +71,13 @@ header {
 
 footer {
   border-top-style: solid;
-  color: #d3d3d3;
+  color: #344E41;
   padding-top: 1rem;
 }
 
 p {
   font-family: roboto;
-  color: #d3d3d3;
+  color: #344E41;
 }
 
 .selectedNav {
@@ -87,13 +87,13 @@ p {
 /*-------------Body-------------*/
 
 body {
-  background-color: #5b8266;
+  background-color: #DAD7CD;
 }
 
 h2,
 h1 {
   font-family: montez;
-  color: #d4af37;
+  color: #588157;
 }
 
 h2 {
