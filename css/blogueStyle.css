@@ -6,27 +6,21 @@
 
 img {
   width: 400px;
-  height: auto;
-} /*temporaire img a resize*/
+}
 
 section {
   padding-bottom: 1rem;
   padding: 2rem 0 2rem 0;
 }
 
-br {
-  border-style: solid;
-  color: #d3d3d3;
-}
-
 time {
   border-style: solid;
-  border-color: #d3d3d3;
+  border-color: #5b8266;
   border-radius: 1rem;
   padding: 5px;
   margin-top: 1rem;
   font-family: roboto;
-  color: #d3d3d3;
+  color: #5b8266;
 }
 
 .flexTime {
@@ -37,5 +31,5 @@ time {
 
 .separator {
   border-top-style: solid;
-  border-color: #d3d3d3;
+  border-color: #344e41;
 }
