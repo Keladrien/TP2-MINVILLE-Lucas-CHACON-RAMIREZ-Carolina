@@ -85,6 +85,10 @@ p {
   text-decoration: underline;
 }
 
+.borderRight {
+  margin-right: 2rem;
+}
+
 /*-------------Body-------------*/
 
 body {
@@ -94,7 +98,7 @@ body {
 h1 {
   font-family: montez;
   color: #d4af37;
-  font-size: 300%;
+  font-size: 350%;
 }
 
 h2 {

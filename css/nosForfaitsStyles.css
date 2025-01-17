@@ -6,8 +6,8 @@ th {
 
 td {
   font-family: roboto;
-  color: #d3d3d3;
-  background-color: #3e8266;
+  color: #5b8266;
+  background-color: #f2fff0;
 }
 
 table {
@@ -27,6 +27,7 @@ th {
 
 .tablePrice {
   font-size: 2rem;
+  font-weight: bold;
 }
 
 td p {
@@ -40,7 +41,7 @@ td p {
   border-radius: 3rem;
   border-style: solid;
   border-color: black;
-  background-color: #d4af37;
+  background-color: #5b8266;
   font-family: roboto;
   margin: 1rem;
   padding: 1rem;
@@ -48,12 +49,14 @@ td p {
 
 button a {
   text-decoration: none;
-  color: black;
+  color: #f2fff0;
   padding: 1rem;
+  font-family: roboto;
+  font-weight: bold;
 }
 
 button a:visited {
-  color: black;
+  color: #f2fff0;
 }
 
 button:hover {
@@ -61,6 +64,6 @@ button:hover {
 }
 
 #tableCorner {
-  background-color: #5b8266;
+  background-color: #f2fff0;
   border: none;
 }
