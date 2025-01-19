@@ -1,0 +1,69 @@
+th {
+  font-family: roboto;
+  color: #d3d3d3;
+  background-color: #14453d;
+}
+
+td {
+  font-family: roboto;
+  color: #5b8266;
+  background-color: #f2fff0;
+}
+
+table {
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  margin: 0;
+  border-spacing: 0;
+}
+
+.tablePrice {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+td p {
+  margin: 0.5rem 0.1rem;
+  border: solid black;
+  text-align: left;
+  font-family: roboto;
+}
+
+.tableButton {
+  border-radius: 3rem;
+  border-style: solid;
+  border-color: black;
+  background-color: #5b8266;
+  font-family: roboto;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+button a {
+  text-decoration: none;
+  color: #f2fff0;
+  padding: 1rem;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+button a:visited {
+  color: #f2fff0;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+#tableCorner {
+  background-color: #f2fff0;
+  border: none;
+}

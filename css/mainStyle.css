@@ -8,3 +8,102 @@ header nav ul li {
   display: inline-block;
   text-decoration: none;
 }
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../font/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: montez;
+  src: url(../font/montez/Montez-Regular.ttf);
+}
+
+/*-------------Header/Footer-------------*/
+
+header a img {
+  width: 140px;
+  height: auto;
+}
+
+header {
+  background-color: #14453d;
+  margin-top: 0;
+}
+
+.flexHF {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  text-decoration: none;
+  font-family: roboto;
+  text-align: right;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: #d3d3d3;
+  text-align: center;
+  padding: 2rem 1rem 2rem 1rem;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li a:visited {
+  color: #d3d3d3;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+footer {
+  border-top-style: solid;
+  color: #344e41;
+  padding-top: 1rem;
+}
+
+p {
+  font-family: roboto;
+  color: #5b8266;
+}
+
+.selectedNav {
+  text-decoration: underline;
+}
+
+.borderRight {
+  margin-right: 2rem;
+}
+
+/*-------------Body-------------*/
+
+body {
+  background-color: #f2fff0;
+}
+
+h1 {
+  font-family: montez;
+  color: #d4af37;
+  font-size: 350%;
+}
+
+h2 {
+  font-family: montez;
+  color: #5b8266;
+  margin-top: 0;
+  font-size: 200%;
+}
