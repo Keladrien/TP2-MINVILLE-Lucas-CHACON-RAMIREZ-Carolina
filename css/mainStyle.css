@@ -26,8 +26,7 @@ body {
 /*-------------Header/Footer-------------*/
 
 header a img {
-  width: 14%;
-  height: auto;
+  max-width: 50%;
   margin: 1rem 0 1rem 2rem;
 }
 
@@ -66,6 +65,16 @@ nav ul li a:hover {
 nav ul li a:visited {
   color: #d3d3d3;
 }
+
+header div {
+max-width: 30%;
+}
+
+footer div div {
+  max-width: 45%;
+}
+
+
 
 header {
   margin-bottom: 2rem;
