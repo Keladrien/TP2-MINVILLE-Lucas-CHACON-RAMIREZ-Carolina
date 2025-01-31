@@ -1,0 +1,156 @@
+@font-face {
+  font-family: roboto;
+  src: url(../font/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: montez;
+  src: url(../font/montez/Montez-Regular.ttf);
+}
+html{
+    font-family: roboto;
+
+}
+img{
+  max-width: 100%;
+}
+header {
+  margin-bottom: 0;
+}
+
+/* .hero img {
+  min-width: 100%;
+  height: 450px;
+  object-fit: cover;
+} */
+
+.hero {
+  background-image: url(../img/accueilimg/pexels-mattycphoto-580900.jpg);
+
+  height: 450px;
+  min-width: 100%;
+  background-position: 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: end;
+
+  position: relative;
+}
+.hero h1 {
+
+  color: white;
+  margin: 20px;
+  padding: 10px;
+  padding-bottom: 0;
+  font-family: roboto;
+  font-size: 4rem;
+}
+.hero > p{
+    color: white;
+    padding: 10px 10px 10px 30px;
+    max-width: 70ch;
+
+}
+.button {
+  
+    background-color:#13453D;
+  
+    list-style: none;
+    padding: 15px;
+    border-radius: 40px;
+    width:fit-content ;
+ 
+}
+.button a{
+    text-decoration: none;
+    color: white;
+
+
+}
+div{
+    padding:20px;
+}
+.flex-main{
+  display: flex;
+  justify-content: center;
+}
+video{
+ max-width: 100%;
+ padding-top: 40px;
+ padding-bottom: 40px;
+
+
+}
+.container{
+
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+  
+ 
+}
+.carte-projets > img{
+
+object-fit:cover;
+
+
+
+}
+.carte-projets{
+  max-width: 25%;
+ 
+}
+.carte-forfaits img{
+  aspect-ratio:10/14;
+  
+  
+
+}
+article{
+ 
+ border: 1px solid white;
+  margin: 10px;
+  
+
+  
+}
+.container-article h1{
+  font-family: roboto;
+  color: white;
+
+}
+.container-article{
+  background-color: #13453D;
+  padding: 15px;
+}
+.container-article p{
+  color: white;
+  padding: 10px;
+}
+
+ figure img{
+    background-color: blue;
+    min-width:110px;
+    max-height: 110px;
+    object-fit: cover;
+    border: 2px solid white;
+   
+    border-radius: 50%;
+
+  }
+
+.carte-forfaits .button{
+  margin-inline-start: 0;
+
+
+
+  
+}
+.carte-forfaits ul{
+ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
