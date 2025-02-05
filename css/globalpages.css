@@ -1,12 +1,4 @@
-@font-face {
-  font-family: roboto;
-  src: url(../font/roboto/Roboto-Regular.ttf);
-}
-
-@font-face {
-  font-family: montez;
-  src: url(../font/montez/Montez-Regular.ttf);
-}
+@import url("mainStyle.css"); 
 html{
     font-family: roboto;
 
@@ -189,14 +181,20 @@ article{
 
 aside ul li a{
   text-decoration: none;
+ 
   
+}
+aside ul{
+  padding: 0;
 }
 aside li{
   list-style: none;
  
+ 
 }
 aside{
   min-width: 20%;
+  padding: 30px;
 }
 
 .containerFiche{
@@ -216,5 +214,12 @@ aside{
 .containerFiche p{
   max-width: 50ch;
   padding:30px;
+
+}
+.articleFiche{
+
+max-width: 50%;
+
+justify-self:center;
 
 }

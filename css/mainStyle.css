@@ -19,8 +19,8 @@ body {
 }
 
 @font-face {
-  font-family: montez;
-  src: url(../font/montez/Montez-Regular.ttf);
+  font-family: oswald;
+  src: url(../font/oswald/Oswald-Bold.ttf);
 }
 
 /*-------------Header/Footer-------------*/
@@ -107,13 +107,13 @@ body {
 }
 
 h1 {
-  font-family: montez;
+  font-family: oswald;
   color: #d4af37;
   font-size: 350%;
 }
 
 h2 {
-  font-family: montez;
+  font-family: oswald;
   color: #5b8266;
   margin-top: 0;
   font-size: 200%;
