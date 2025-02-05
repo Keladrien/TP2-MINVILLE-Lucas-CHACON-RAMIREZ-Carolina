@@ -154,3 +154,67 @@ article{
     justify-content: center;
 
 }
+.ulNav li{
+  display:inline-block;
+  text-decoration: none;
+
+ 
+ 
+  
+}
+
+.ulNav a{
+
+  text-decoration: none;
+  color: #13453D;
+ 
+ 
+ 
+  
+}
+
+.secondMenu li:nth-child(2){
+  font-weight: 600;
+  color: #13453D;
+  
+ 
+
+  
+}
+
+.fiche{
+  background-color: white;
+  display: flex;
+}
+
+aside ul li a{
+  text-decoration: none;
+  
+}
+aside li{
+  list-style: none;
+ 
+}
+aside{
+  min-width: 20%;
+}
+
+.containerFiche{
+  background-color: aqua;
+ 
+  display: flex;
+  flex-flow: row;
+  max-width: 70%;
+  
+}
+.containerFiche img{
+  max-width: 50%;
+  object-fit: contain;
+
+
+}
+.containerFiche p{
+  max-width: 50ch;
+  padding:30px;
+
+}
