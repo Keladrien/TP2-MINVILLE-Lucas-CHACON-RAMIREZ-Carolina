@@ -67,3 +67,9 @@ button:hover {
   background-color: #f2fff0;
   border: none;
 }
+
+main p {
+  font-size: 70%;
+  color: #5b8266;
+  font-family: roboto;
+}
