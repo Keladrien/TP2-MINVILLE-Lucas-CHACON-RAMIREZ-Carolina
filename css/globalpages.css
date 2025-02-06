@@ -59,12 +59,13 @@ header {
 
 
 }
-div{
-    padding:20px;
-}
+
 .flex-main{
   display: flex;
   justify-content: center;
+}
+.main-text-flex{
+  padding:20px;
 }
 video{
  max-width: 100%;
@@ -84,12 +85,14 @@ video{
 .carte-projets > img{
 
 object-fit:cover;
+/* border: 2px solid #14453d; */
 
 
 
 }
 .carte-projets{
   max-width: 25%;
+  padding:20px;
  
 }
 .carte-forfaits img{
@@ -114,14 +117,18 @@ article{
 .container-article{
   background-color: #13453D;
   padding: 15px;
+  margin-bottom: 50px;
 }
 .container-article p{
   color: white;
   padding: 10px;
 }
+.texte-fiche{
+  padding:20px;
+}
 
  figure img{
-    background-color: blue;
+   
     min-width:110px;
     max-height: 110px;
     object-fit: cover;
@@ -177,10 +184,12 @@ article{
 .fiche{
   background-color: white;
   display: flex;
+  margin: 30px;
 }
 
 aside ul li a{
   text-decoration: none;
+  color:#13453D;
  
   
 }
@@ -191,6 +200,13 @@ aside li{
   list-style: none;
  
  
+ 
+}
+.asideUl li{
+  border-top: 1px solid black;
+  padding: 15px 0 15px 0;
+ 
+
 }
 aside{
   min-width: 20%;
@@ -198,7 +214,7 @@ aside{
 }
 
 .containerFiche{
-  background-color: aqua;
+ 
  
   display: flex;
   flex-flow: row;
@@ -213,7 +229,7 @@ aside{
 }
 .containerFiche p{
   max-width: 50ch;
-  padding:30px;
+
 
 }
 .articleFiche{
@@ -222,4 +238,12 @@ max-width: 50%;
 
 justify-self:center;
 
+}
+.secondMenu{
+  display: flex;
+  flex-flow: column;
+ 
+}
+.pageActuelle{
+  font-weight: 900;
 }

@@ -82,9 +82,9 @@ header {
 }
 
 footer {
-  border-top-style: solid;
+  border-top: 1px solid;
   color: #344e41;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */ 
 }
 
 p {
@@ -109,12 +109,12 @@ body {
 h1 {
   font-family: oswald;
   color: #d4af37;
-  font-size: 350%;
+  font-size: 3.5rem;
 }
 
 h2 {
   font-family: oswald;
   color: #5b8266;
   margin-top: 0;
-  font-size: 200%;
+  font-size: 2rem;
 }
