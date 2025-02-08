@@ -4,6 +4,17 @@
   gap: 1rem;
 }
 
+.flexImg {
+  width: 33%;
+}
+
+.flexTxt {
+  width: 66%;
+}
+img {
+  width: 100%;
+}
+
 section {
   padding-bottom: 1rem;
   padding: 2rem 0 2rem 0;

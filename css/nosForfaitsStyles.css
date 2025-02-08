@@ -70,3 +70,16 @@ main p {
   color: #5b8266;
   font-family: roboto;
 }
+
+p a {
+  text-decoration: none;
+}
+
+ p a:hover {
+  color: #5b8266 ;
+ }
+
+ p a:visited {
+  color: #5b8266 ;
+  
+ }
