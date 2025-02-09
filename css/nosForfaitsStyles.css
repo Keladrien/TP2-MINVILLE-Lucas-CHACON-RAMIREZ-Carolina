@@ -34,6 +34,7 @@ th {
 }
 
 .tableButton {
+  display: inline-block;
   border-radius: 3rem;
   border-style: solid;
   border-color: black;
@@ -43,7 +44,11 @@ th {
   padding: 1rem;
 }
 
-button a {
+.btnAlign {
+  vertical-align: middle;
+}
+
+a {
   text-decoration: none;
   color: #f2fff0;
   padding: 1rem;
@@ -51,11 +56,11 @@ button a {
   font-weight: bold;
 }
 
-button a:visited {
+a:visited {
   color: #f2fff0;
 }
 
-button:hover {
+a:hover {
   text-decoration: underline;
   color: #f2fff0;
 }
