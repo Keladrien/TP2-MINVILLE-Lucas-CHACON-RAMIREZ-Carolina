@@ -48,7 +48,7 @@ th {
   vertical-align: middle;
 }
 
-a {
+main a {
   text-decoration: none;
   color: #f2fff0;
   padding: 1rem;
@@ -56,11 +56,11 @@ a {
   font-weight: bold;
 }
 
-a:visited {
+main a:visited {
   color: #f2fff0;
 }
 
-a:hover {
+main a:hover {
   text-decoration: underline;
   color: #f2fff0;
 }
