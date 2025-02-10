@@ -122,6 +122,7 @@ video {
 }
 .carte-forfaits img {
   aspect-ratio: 10/14;
+  object-fit: cover;
 }
 /* CARTE-CLIENTS********************* */
 .carte-clients {
@@ -232,4 +233,7 @@ video {
   object-fit: contain;
   margin: 10px;
   right: 20px;
+}
+img >a{
+  border:red 2px solid;
 }
