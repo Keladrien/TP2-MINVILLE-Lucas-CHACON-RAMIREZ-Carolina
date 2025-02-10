@@ -221,6 +221,7 @@ video {
 .button:hover {
   background-color: green;
 }
+/* promo */
 .promo {
   background-color: #13453d;
   color: white;
